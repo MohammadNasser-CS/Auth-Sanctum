@@ -26,8 +26,8 @@ class DatabaseSeeder extends Seeder
         //     'password' => Hash::make('147369258'),
         // ]);
         // Student::create([
-        //     'name' => 'Jana Taha',
-        //     'email' => 'jana@gmail.com',
+        //     'name' => 'Mhmd Ashraf',
+        //     'email' => 'Mhmd@gmail.com',
         //     'std_id' => '12010027',
         //     'password' => Hash::make('123456789'),
         // ]);
