@@ -11,8 +11,8 @@ class StudentCourse extends Model
     protected $guarded = [];
     protected $hidden = ['created_at', 'updated_at'];
     protected $table = 'student_course';
-    protected $primaryKey = ['student_id', 'course_id'];
-    public $incrementing = false;
+    // protected $primaryKey = ['student_id', 'course_id'];
+    // public $incrementing = false;
     public function course()
     {
         return $this->belongsTo(Course::class, 'course_id', 'course_id');

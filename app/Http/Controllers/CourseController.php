@@ -99,9 +99,9 @@ class CourseController extends Controller
             'name' => $request->name,
             'weight' => $request->weight,
         ]);
-        // $student_course->update([
-        //     'status' => $request->status,
-        // ]);
+        $student_course->update([
+            'status' => $request->status,
+        ]);
         $res = [
             'message' => 'The Course Information Updated Successfully',
             'course' => $course,
